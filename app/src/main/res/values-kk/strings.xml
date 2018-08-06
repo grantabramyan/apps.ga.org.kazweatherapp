@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_search_place">Қала енгізіңіз</string>
+    <string name="can_not_get_cities">Мен қалалардың тізімін ала алмаймын</string>
+    <string name="noInternet">Интернетке қосылу жоқ</string>
+</resources>

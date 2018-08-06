@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_search_place">Введите город</string>
+    <string name="can_not_get_cities">Не могу получить список городов</string>
+    <string name="noInternet">Подключение к интернету отсутствует</string>
+</resources>

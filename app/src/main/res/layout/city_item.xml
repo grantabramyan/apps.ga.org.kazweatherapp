@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/temperature"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_vertical"
+        android:textColor="@color/textColor"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="30"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/city_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/temperature"
+        android:gravity="center_vertical"
+        android:textColor="@color/textColor"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="City"
+        />
+</RelativeLayout>
+
+<!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--app:cardUseCompatPadding="true"-->
+    <!--app:cardCornerRadius="8dp">-->
+    <!--<RelativeLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/temperature"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:textColor="@color/textColor"-->
+            <!--android:textAppearance="?android:textAppearanceMedium"-->
+            <!--tools:text="30"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/city_title"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_toLeftOf="@+id/temperature"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:textColor="@color/textColor"-->
+            <!--android:textAppearance="?android:textAppearanceMedium"-->
+            <!--tools:text="City"-->
+            <!--/>-->
+    <!--</RelativeLayout>-->
+<!--</android.support.v7.widget.CardView>-->
